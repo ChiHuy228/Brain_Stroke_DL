@@ -1,0 +1,7 @@
+# Python 3.11 hoặc 3.12. Để nạp model cũ, ưu tiên đúng TensorFlow/Keras lúc train.
+streamlit==1.50.0
+tensorflow==2.20.0
+numpy>=1.26,<2.3
+pandas>=2.2,<3
+Pillow>=10.4,<12
+h5py>=3.11,<4

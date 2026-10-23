@@ -1,0 +1,81 @@
+{
+  "configuration_source": "Đối chiếu brain_stroke_kaggle_ready(1).ipynb: RGB 0–255, tf.image.resize bilinear; preprocessing tích hợp trong model; Normal=0, Stroke=1. Chưa nạp trọng số thật của người dùng.",
+  "models": [
+    {
+      "id": "custom_cnn",
+      "name": "Custom CNN",
+      "path": "models/CustomCNN_best.keras",
+      "class_names": [
+        "Normal",
+        "Stroke"
+      ],
+      "preprocessing": "raw_0_255",
+      "interpolation": "tensorflow_bilinear",
+      "apply_exif_orientation": false,
+      "binary_output_index": 1,
+      "output_type": "probabilities",
+      "decision_threshold": 0.5,
+      "dynamic_size": [
+        224,
+        224
+      ]
+    },
+    {
+      "id": "resnet50",
+      "name": "ResNet50",
+      "path": "models/ResNet50_best.keras",
+      "class_names": [
+        "Normal",
+        "Stroke"
+      ],
+      "preprocessing": "raw_0_255",
+      "interpolation": "tensorflow_bilinear",
+      "apply_exif_orientation": false,
+      "binary_output_index": 1,
+      "output_type": "probabilities",
+      "decision_threshold": 0.5,
+      "dynamic_size": [
+        224,
+        224
+      ]
+    },
+    {
+      "id": "vgg16",
+      "name": "VGG16",
+      "path": "models/VGG16_best.keras",
+      "class_names": [
+        "Normal",
+        "Stroke"
+      ],
+      "preprocessing": "raw_0_255",
+      "interpolation": "tensorflow_bilinear",
+      "apply_exif_orientation": false,
+      "binary_output_index": 1,
+      "output_type": "probabilities",
+      "decision_threshold": 0.5,
+      "dynamic_size": [
+        224,
+        224
+      ]
+    },
+    {
+      "id": "vgg19",
+      "name": "VGG19",
+      "path": "models/VGG19_best.keras",
+      "class_names": [
+        "Normal",
+        "Stroke"
+      ],
+      "preprocessing": "raw_0_255",
+      "interpolation": "tensorflow_bilinear",
+      "apply_exif_orientation": false,
+      "binary_output_index": 1,
+      "output_type": "probabilities",
+      "decision_threshold": 0.5,
+      "dynamic_size": [
+        224,
+        224
+      ]
+    }
+  ]
+}
