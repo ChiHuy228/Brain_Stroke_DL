@@ -1,8 +1,13 @@
+# Mô hình đã huấn luyện
 models/
 *.keras
 *.h5
 *.hdf5
-*.zip
+
+# Môi trường và tệp tạm
 __pycache__/
+*.pyc
 .venv/
 .env
+logs/
+*.zip
