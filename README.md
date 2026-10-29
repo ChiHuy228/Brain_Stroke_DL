@@ -1,7 +1,7 @@
 # BrainStroke Local Web
 
 Hướng dẫn cài đặt và sử dụng ứng dụng thử nghiệm bốn mô hình **CustomCNN, ResNet50, VGG16 và VGG19** trên ảnh CT não 2D. Người dùng có thể chọn một hoặc nhiều mô hình để so sánh kết quả trên cùng một ảnh.
-
+Bộ dữ liệu: lấy từ kaggle link https://www.kaggle.com/datasets/afridirahman/brain-stroke-ct-image-dataset/data
 ## Mục lục
 
 1. [Chuẩn bị](#1-chuẩn-bị)
